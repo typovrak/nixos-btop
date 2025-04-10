@@ -28,7 +28,7 @@ in {
 		chmod 600 ${home}/.config/btop/themes/catppuccin_mocha.theme
 	'';
 
-	environment.systemPackages = with pksg; [
+	environment.systemPackages = with pkgs; [
 		btop
 	];
 }
