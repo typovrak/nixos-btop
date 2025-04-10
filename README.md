@@ -5,4 +5,4 @@ nixos-btop = fetchGit {
 	ref = "main";
 };
 
-(import "${nixos-htop}/configuration.nix")
+(import "${nixos-btop}/configuration.nix")
