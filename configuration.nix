@@ -4,7 +4,7 @@ let
 	username = "typovrak";
 	group = config.users.users.${username}.group or "users";
 	home = config.users.users.${username}.home;
-} in {
+in {
 	system.activationScripts.btop = ''
 		mkdir -p ${home}/.config
 		chown ${username}:${group} ${home}/.config
